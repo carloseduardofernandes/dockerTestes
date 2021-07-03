@@ -1,0 +1,13 @@
+Documentacao dos comandos:
+
+https://docs.docker.com/reference/
+
+
+- criar o container, apartir de uma imagem(exemplo mongo):
+docker run --name server-mongo -p 27017:27017 -d mongo
+
+- limpar volumes não usados por containers:
+docker volume prune
+
+- baixar emagem do mongo mais atual: 
+docker pull mongo:latest
