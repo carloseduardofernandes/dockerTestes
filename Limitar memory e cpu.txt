@@ -1,0 +1,7 @@
+Criar um arquivo como nome de .wslconfig no diretorio do usuario exemplo:
+C:\Users\Carlos
+com seguinte conteudo(deve colocar a memoria e qtd de cpus a usar):
+
+[wsl2]
+memory=1GB   # Limits VM memory in WSL 2 up to 3GB
+processors=2 # Makes the WSL 2 VM use two virtual processors
