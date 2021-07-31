@@ -1,0 +1,11 @@
+version: '2.2'
+
+services:
+  mongo:
+      image: mongo:latest
+      container_name: mongo
+      ports:
+        - "27017:27017"
+      environment:
+        - "MAX_HEAP_SIZE=256M"
+        - "HEAP_NEWSIZE=128M"

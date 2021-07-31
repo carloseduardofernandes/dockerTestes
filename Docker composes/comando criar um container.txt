@@ -1,0 +1,3 @@
+na pasta do arquivo .yaml digite:
+
+docker-compose up

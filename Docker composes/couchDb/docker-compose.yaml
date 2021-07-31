@@ -1,0 +1,11 @@
+version: '2.2'
+
+services:
+  neo4j:
+      image: couchbase:latest
+      container_name: couchdb
+      ports:
+        - "11207:11207"
+      environment:
+        - "MAX_HEAP_SIZE=256M"
+        - "HEAP_NEWSIZE=128M"
