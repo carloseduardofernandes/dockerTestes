@@ -1,0 +1,5 @@
+Run in cmd, on folder dockerfile:
+
+docker build -t sap .
+
+**feito isso a imagem já aparece no docker app hub
