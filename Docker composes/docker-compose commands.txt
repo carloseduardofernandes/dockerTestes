@@ -1,0 +1,6 @@
+*Para criar o container apartir do arquivo compose, na pasta do arquivo .yaml digite:
+docker-compose up -d (-d para o console não ficar preso)  
+
+Parar o container: docker-compose stop
+Startar o container: docker-compose start
+Para e zerar os dados do container: docker-compose down

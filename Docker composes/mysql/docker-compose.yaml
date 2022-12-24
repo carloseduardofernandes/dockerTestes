@@ -2,10 +2,11 @@ version: '2.2'
 
 services:
   mysql:
-      image: mysql:5.6.47
-      container_name: dev-mysql2
+      image: mysql:latest
+      container_name: udemy-course-mysql
       ports:
         - "3307:3307"
       environment:
         - "MAX_HEAP_SIZE=256M"
         - "HEAP_NEWSIZE=128M"
+        - "MYSQL_ROOT_PASSWORD=mysql#docker23"
