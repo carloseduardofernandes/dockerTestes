@@ -3,9 +3,9 @@ version: '2.2'
 services:
   mysql:
       image: mysql:latest
-      container_name: udemy-course-mysql
+      container_name: mysql-course-udemy
       ports:
-        - "3307:3307"
+        - "3306:3306"
       environment:
         - "MAX_HEAP_SIZE=256M"
         - "HEAP_NEWSIZE=128M"
